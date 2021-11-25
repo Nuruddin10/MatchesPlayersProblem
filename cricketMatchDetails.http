@@ -1,0 +1,35 @@
+GET http://localhost:3000/players/ 
+
+###
+
+PUT http://localhost:3000/players/:playerId/
+Content-Type: application/json 
+
+{
+    "playerName": "Raju"
+}
+
+### 
+
+GET http://localhost:3000/matches/15/ 
+Content-Type: application/json 
+
+### 
+
+GET http://localhost:3000/players/3/ 
+Content-Type: appication/json 
+
+###
+
+GET http://localhost:3000/players/3/matches
+Content-Type: application/json 
+
+###
+
+GET http://localhost:3000/matches/7/players 
+Content-Type: application/json 
+
+###
+
+GET http://localhost:3000/players/1/playerScores
+Content-Type: application/json 
